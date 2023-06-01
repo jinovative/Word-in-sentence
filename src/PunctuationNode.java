@@ -1,7 +1,7 @@
 /**
  * Represents PunctuationNode in a sentence.
  */
-public class PunctuationNode implements Sentence{
+public class PunctuationNode implements Sentence {
   private String punctuation;
   private Sentence next;
 

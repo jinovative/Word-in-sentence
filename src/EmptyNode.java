@@ -7,8 +7,9 @@ public class EmptyNode implements Sentence {
    * Constructs an EmptyNode.
    */
   public EmptyNode() {
-
+    return;
   }
+
   @Override
   public int getNumberOfWords() {
     return 0;
